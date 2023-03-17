@@ -12,7 +12,7 @@ int main(void)
 
 	for (lett = 'a'; lett <= 'z'; lett++)
 	{
-		if(lett != 'q' || lett != 'e')
+		if (lett != 'q' && lett != 'e')
 		{
 			putchar(lett);
 		}

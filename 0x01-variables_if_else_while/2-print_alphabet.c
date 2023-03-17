@@ -13,6 +13,6 @@ int main(void)
 
 	for(lett = 'a'; lett <= 'z'; lett++ )
 		putchar(lett);
-		putchar("\n");
+		putchar('\n');
 	return (0);
 }

@@ -20,7 +20,7 @@ int main(void)
 			{
 				putchar(num2);
 				putchar(',');
-				putchat(' ');
+				putchar(' ');
 			}
 		}
 	}

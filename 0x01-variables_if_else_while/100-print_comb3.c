@@ -18,7 +18,6 @@ int main(void)
 			putchar(num2);
 			if (num1 < '9' && num2 < '0')
 			{
-				putchar(num2);
 				putchar(',');
 				putchar(' ');
 			}

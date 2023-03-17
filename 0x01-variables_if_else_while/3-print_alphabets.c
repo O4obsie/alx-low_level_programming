@@ -15,6 +15,10 @@ int main(void)
 	{
 		putchar(lett);
 	}
+	for (lett = 'A'; lett <= 'Z'; lett++)
+	{
+		putchar(lett);
+	}
 	putchar('\n');
 	return (0);
 }

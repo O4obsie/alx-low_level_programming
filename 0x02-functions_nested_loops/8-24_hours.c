@@ -1,7 +1,12 @@
 #include "main.h"
 
+/**
+ * jack_bauer - print all tiime combination
+ *
+ * Return: time from 0 to 23.59
+ */
 void jack_bauer(void)
-{	
+{
 	int a;
 	int b;
 

@@ -6,7 +6,7 @@
  * @a: array
  * @n: num of items to print
  */
-ivoid print_array(int *a, int n)
+void print_array(int *a, int n)
 {
 	int i = 0;
 

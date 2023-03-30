@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strcat - concatenate 2 strings untill n
+ * _strncat - concatenate 2 strings untill n
  * @dest: string to append to
  * @src: str we append from
  * @n: lenth to copy
  * Return: Concatenated string
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;

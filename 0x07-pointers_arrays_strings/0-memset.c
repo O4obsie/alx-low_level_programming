@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _memset - copy bytes from src to dest
+ * _memset - fills memory with a constant byte
  * @s: dest
- * @b: src
- * @n: bytes to copy
+ * @b: to fill with this char
+ * @n: bytes to fill with
  * Return: Copied bytes
  */
 char *_memset(char *s, char b, unsigned int n)

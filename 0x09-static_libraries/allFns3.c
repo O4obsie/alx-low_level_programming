@@ -10,7 +10,7 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	return ('1');
+	return (s);
 }
 
 /**
@@ -22,7 +22,7 @@ char *_memset(char *s, char b, unsigned int n)
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return ('1');
+	return (dest);
 }
 
 /**
@@ -33,5 +33,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
  */
 char *_strchr(char *s, char c)
 {
-	return ('1');
+	return (s);
 }

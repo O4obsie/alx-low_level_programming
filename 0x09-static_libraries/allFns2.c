@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
  */
 char *_strpbrk(char *s, char *accept)
 {
-	return (1);
+	return (s);
 }
 
 /**
@@ -31,5 +31,5 @@ char *_strpbrk(char *s, char *accept)
  */
 char *_strstr(char *haystack, char *needle)
 {
-	return ('1');
+	return (needle);
 }

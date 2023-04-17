@@ -1,4 +1,3 @@
-#include "main.h"
 #include "dog.h"
 
 /**
@@ -8,7 +7,6 @@
  * @age: dogs age
  * @owner: dogs owner
  */
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d)
